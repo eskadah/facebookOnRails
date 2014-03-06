@@ -110,6 +110,8 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
   </component>
@@ -152,8 +154,6 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.0.3, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.1.1, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.1.1, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.14, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.1, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.0, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.11.0, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.0.1, RVM: ruby-1.9.3-p194 [rails4]) [gem]" level="application" />
