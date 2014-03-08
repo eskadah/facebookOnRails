@@ -29,8 +29,13 @@ gem 'jbuilder', '~> 1.2'
 
 # add simple form
 
+# add devise
 
+gem 'devise'
 
+# add facebook authentication via omni-auth
+
+gem 'omniauth-facebook'
 
 gem 'simple_form'
 
@@ -38,6 +43,12 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+# gem for managing App secrets
+gem 'figaro'
+
+#add facebook authentication using omniauth
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
