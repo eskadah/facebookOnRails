@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be20a89a-073a-40e7-b359-eb4ff4dd31ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.yml" afterPath="$PROJECT_DIR$/config/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/facebookOnRails.iml" afterPath="$PROJECT_DIR$/.idea/facebookOnRails.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="facebookOnRails.iws" />
@@ -36,7 +33,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="684">
+            <state line="3" column="84" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="684">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -83,16 +80,34 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="72" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
+            <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///usr/local/rvm/gems/ruby-1.9.3-p194@rails4/gems/devise-3.2.3/lib/devise/rails/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="488" column="46" selection-start="19397" selection-end="19397" vertical-scroll-proportion="0.0" vertical-offset="8428" max-vertical-offset="9036">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devise.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="37" selection-start="558" selection-end="558" vertical-scroll-proportion="0.25945947" vertical-offset="0" max-vertical-offset="4680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="0.42352942" vertical-offset="0" max-vertical-offset="595">
+            <state line="15" column="72" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
               <folding />
             </state>
           </provider>
@@ -150,13 +165,13 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
       </list>
     </option>
   </component>
@@ -168,8 +183,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2105" />
-    <option name="y" value="35" />
+    <option name="x" value="2240" />
+    <option name="y" value="49" />
     <option name="width" value="1390" />
     <option name="height" value="1054" />
   </component>
@@ -942,7 +957,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2105" y="35" width="1390" height="1054" extended-state="0" />
+    <frame x="2240" y="49" width="1390" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="103" y="132" width="805" height="854" />
@@ -1120,13 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/rvm/gems/ruby-1.9.3-p194@rails4/gems/devise-3.2.3/lib/devise/rails/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="47" selection-start="10668" selection-end="10668" vertical-scroll-proportion="-1.1544402" vertical-offset="4792" max-vertical-offset="9036">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/rvm/gems/ruby-1.9.3-p194@rails4/gems/devise-3.2.3/lib/devise/models/authenticatable.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.2711864" vertical-offset="3330" max-vertical-offset="5220">
@@ -1295,39 +1303,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="84" selection-start="12138" selection-end="12138" vertical-scroll-proportion="1.1168385" vertical-offset="3760" max-vertical-offset="4680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="684">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="98" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="21" selection-start="145" selection-end="145" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="49" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1494">
           <folding />
         </state>
       </provider>
@@ -1346,16 +1324,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="72" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
+        <state line="55" column="49" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="84" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="684">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="98" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="0.42352942" vertical-offset="0" max-vertical-offset="595">
+        <state line="15" column="72" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/rvm/gems/ruby-1.9.3-p194@rails4/gems/devise-3.2.3/lib/devise/rails/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="488" column="46" selection-start="19397" selection-end="19397" vertical-scroll-proportion="0.0" vertical-offset="8428" max-vertical-offset="9036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="37" selection-start="558" selection-end="558" vertical-scroll-proportion="0.25945947" vertical-offset="0" max-vertical-offset="4680">
           <folding />
         </state>
       </provider>
