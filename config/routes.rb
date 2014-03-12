@@ -1,5 +1,8 @@
 FacebookOnRails::Application.routes.draw do
-  devise_for :users, controllers:{omniauth_callbacks:'users/omniauth_callback_controller'}
+  get "users/index"
+  get "users/show"
+  get "user/index"
+  devise_for :users, controllers:{omniauth_callbacks:'users/omniauth_callbacks'}
   resources :posts
 
   root :to => "pages#home"

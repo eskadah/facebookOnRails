@@ -1,3 +1,15 @@
 body{
     padding-top: 50px;
 }
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+
+}
+
+.form-horizontal .controls{
+    margin-left:0px;
+}

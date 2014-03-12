@@ -13,4 +13,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require flat-ui
 //= require_tree .
+
+
+
+function closeHandler(){
+
+    $('#alert').slideUp(1000);
+
+
+
+         //close click handler
+    }
+// end dom ready

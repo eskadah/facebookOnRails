@@ -51,7 +51,12 @@ gem 'figaro'
 
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+# gem 'bcrypt', '~> 3.1.2'
+
+gem 'flatui-rails'
+
+#adding further integration with facebook
+gem 'koala'
 
 # Use unicorn as the app server
 # gem 'unicorn'
