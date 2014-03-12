@@ -1,0 +1,12 @@
+<%= simple_form_for(@post,html:{class:'form-horizontal'}) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-group" style='text-align:center;margin-left: auto;margin-right: auto'>
+    <%= f.input :title ,input_html:{class:'form-control'},label:false,placeholder:"Title" %>
+    <%= f.input :content, as: :text, input_html:{class:'form-control',rows:3},label:false,placeholder:"Content" %>
+  </div>
+
+  <div >
+    <%= f.button :submit,class:'btn btn-primary btn-lg btn-block' %>
+  </div>
+<% end %>

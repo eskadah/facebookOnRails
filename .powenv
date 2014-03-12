@@ -1,0 +1,7 @@
+export PATH="/usr/local/rvm/gems/ruby-1.9.3-p194@rails4/bin:/usr/local/rvm/gems/ruby-1.9.3-p194@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p194/bin:$PATH"
+export GEM_HOME='/usr/local/rvm/gems/ruby-1.9.3-p194@rails4'
+export GEM_PATH='/usr/local/rvm/gems/ruby-1.9.3-p194@rails4:/usr/local/rvm/gems/ruby-1.9.3-p194@global'
+export MY_RUBY_HOME='/usr/local/rvm/rubies/ruby-1.9.3-p194'
+export IRBRC='/usr/local/rvm/rubies/ruby-1.9.3-p194/.irbrc'
+unset MAGLEV_HOME
+unset RBXOPT
